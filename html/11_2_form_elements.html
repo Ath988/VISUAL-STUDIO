@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--
+            EMMET 
+            >  alt bileşen eklemek için kulllanılır
+            + aynı düzeydeki bileşenler için kullanılır
+            *n istenilen miktarda tekrar yapmka için kullanılır
+            ^ bir üst bileşene cıkmak için kullanılır
+            . class eklemek için kullanılşır
+            # id eklemek için kullanılır
+            {$} sıra numarası vermek İçin kullanılır
+    -->
+    <form action="" method="post">
+
+        <div>
+            <label for="name">Adınız Soyadınız...</label>
+            <input type="text" name="name" id="name" required>
+        </div>
+    </form>
+    <hr>
+   <div>
+    <label for="password"> şifre belirleyiniz</label>
+    <input type="password" name="password" id="password" required>
+   </div>
+   <hr>
+   <div>
+    <label for="about">kendini tanıt!</label>
+    <textarea cols="30" rows="10" name="text" name="about" id="about"></textarea>        
+</div>
+<hr>
+<div>
+    <p>kendinizi en iyi hissettiginiz program dili</p>
+    <input type="radio" name="java" id="programlama">
+    <label for="Java">Java</label>
+
+    <input type="radio" name="c#" id="programlama">
+    <label for="c#">C#</label>
+
+    <input type="radio" name="kotlin" id="programlama">
+    <label for="kotlin">Kotlin</label>
+
+    <input type="radio" name="delphi" id="programlama">
+    <label for="Delphi">Delphi</label>
+
+</div>
+<div>
+    <p>hangi spor dalları ile ilgileniyorsunuz</p>
+    <input type="checkbox" name="s1" id="s1">
+    <label for="s1">yüzme</label>
+    
+    <input type="checkbox" name="s2" id="s2">
+    <label for="s2">koşu</label>
+    
+    <input type="checkbox" name="s3" id="s3">
+    <label for="s3">voleybol</label>
+
+    <input type="checkbox" name="s4" id="s4">
+    <label for="s4">satranc</label>
+
+    <input type="checkbox" name="s5" id="s5">
+    <label for="s5">uzun atlama</label>
+
+</div>
+<hr>
+<div>
+    <p>hangi şehirde yaşıyorsunuz</p>
+    <select name="şehir" id="sehir">
+        <option >SECİNİZ</option>
+        <option value="01">ADANA</option>
+        <option value="06">ANKARA</option>
+        <option value="07">ANTALYA</option>
+        <option value="34">ISTANBUL</option>
+        <option value="35">İZMİR</option>
+        <option value="61">TRABZON</option>
+
+    </select>
+</div>
+<hr>
+<div>
+    <p>dogum tarihiniz</p>
+    <input type="date" name="birthdate" id="birthdate">
+</div>
+<hr>
+<div>
+    <p>Email adresiniz</p>
+    <input type="email" name="email" id="email" required>
+</div>
+<hr>
+<div>
+    <button type="submit">KAYDET</button> <br><br>
+    <button type="reset">TEMİZLE</button>
+</div>
+    
+</body>
+</html>

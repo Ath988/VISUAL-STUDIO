@@ -1,0 +1,18 @@
+p{
+    color: brown;
+}
+/**
+    tag direkt seçilebilir.
+    id kullanılarak seçilebilir
+    class kullanılarak seçilebilir
+*/
+#baslik{
+    color: blue;
+    border: 1px dotted black;
+    
+}
+#class{
+    color: violet;
+    border: 2px solid saddlebrown;
+    border-radius: 5px; 
+}

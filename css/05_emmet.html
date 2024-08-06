@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!--
+    > - childe node add, bir bileşenin içerisine at bileşen eklemek için kullanılır.
+    örn> div>p
+    sonuc:
+    <div>
+        <p></p>
+        </div>
+    + -  aynı düzeydeki nodeları eklemek için kullanılır.
+        örn: div>label+input:text
+        <div>
+        <label for=""></label>
+        <input type="text" name="" id="">
+        </div>
+        * -  eklemek istneilen bileşenin kac defa tekrar edecegini belirtir.
+        örn: 
+         div>p*5 & coklu kullanım (div>p*2)*5
+        sonuc:
+        <div>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        </div>
+
+        ^- bir bileşenin üst bir nootasyona geçisini sağlar.
+        örnek:
+        div>label+input::text^div>input::radio
+        sonuc:
+        <div>
+            <label for=""></label>
+            <input::text></input::text>
+        </div>
+        <div>
+            <input::radio></input::radio>
+        </div>
+        () belli alanları ayırmak, bileşenleri ayrı ayrı değerlendirmek için kullanılır.
+         örnek:
+         (div>p*2)*5
+         . - class eklemek için kullanılır.
+         # - id eklemek için kullanılır.
+         ornek:
+         div.box>p#baslik+p#content
+         sonuc:
+         <div class="box">
+            <p id="baslik"></p>
+            <p id="content"></p>
+         </div>
+         {} bir bileşenin içerisine değer atamak için kullanılır
+          $ - eğer * ile kullanılmış ise ilgili sayı adedinin index olarak kullanır.
+         ornek:
+         table>thead>tr>th{baslik -$}*5^^tbody>(tr>td*5)*4
+
+    -->
+
+
+</body>
+
+</html>
